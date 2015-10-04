@@ -31,6 +31,7 @@ GEM
     addressable (2.3.6)
     arel (3.0.3)
     builder (3.0.4)
+    byebug (6.0.2)
     capybara (2.2.1)
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
@@ -44,7 +45,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
-    columnize (0.8.9)
     cucumber (1.3.15)
       builder (>= 2.1.2)
       diff-lcs (>= 1.1.3)
@@ -60,12 +60,6 @@ GEM
     cucumber-rails-training-wheels (1.0.0)
       cucumber-rails (>= 1.1.1)
     database_cleaner (1.3.0)
-    debugger (1.6.8)
-      columnize (>= 0.3.1)
-      debugger-linecache (~> 1.2.0)
-      debugger-ruby_core_source (~> 1.3.5)
-    debugger-linecache (1.2.0)
-    debugger-ruby_core_source (1.3.5)
     diff-lcs (1.2.5)
     docile (1.1.3)
     erubis (2.7.0)
@@ -117,7 +111,7 @@ GEM
       rake (>= 0.8.7)
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
-    rake (10.3.2)
+    rake (10.4.2)
     rdoc (3.12.2)
       json (~> 1.4)
     ref (1.0.5)
@@ -168,12 +162,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  byebug
   capybara
   coffee-rails
   cucumber-rails
   cucumber-rails-training-wheels
   database_cleaner
-  debugger
   haml
   jquery-rails
   launchy
@@ -185,3 +179,6 @@ DEPENDENCIES
   sqlite3
   therubyracer
   uglifier
+
+BUNDLED WITH
+   1.10.6
